@@ -28784,9 +28784,13 @@ table.dataTable thead .sorting_desc:after {
 
 
 
+.zy{
+  position: relative;
+  right: -50px;
+  margin-right: 56px;
+}
 
-
-@media only screen and (max-width: 580px){
+@media only screen and (max-width: 578px){
   .navbar-expand .navbar-nav{
     flex-direction: row;
     position: absolute;
@@ -28794,10 +28798,9 @@ table.dataTable thead .sorting_desc:after {
   }
 
   .zy{
-    position: relative;
-    /* right: -45px; */
-    margin-right: 56px;
+    right: -100px;
   }
+ 
 }
 
 
@@ -28805,11 +28808,7 @@ table.dataTable thead .sorting_desc:after {
   .nav-control{
     left: 0;
   }
-  .zy{
-    position: relative;
-    right: -72px;
-    margin-right: 6px;
-  }
+ 
 
   .font{
  display: none;
@@ -28821,8 +28820,3 @@ table.dataTable thead .sorting_desc:after {
 
 
 
-@media only screen and (max-width: 768px){
-  .zy{
-    right: -1px;
-  }
-}
